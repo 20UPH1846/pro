@@ -1,0 +1,102 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Lora', serif;
+  background-color: #fdfdfd; /* Warm White */
+  color: #1A3A4A; /* Deep Teal */
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1A3A4A;
+  padding: 1rem 2rem;
+}
+.logo {
+  color: #EBA83B; /* Golden Sand */
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+.nav-links a:hover {
+  color: #EBA83B;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  text-align: center;
+}
+.hero img {
+  width: 100%;
+  height: auto;
+}
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  background: rgba(26, 58, 74, 0.6);
+  padding: 1rem 2rem;
+  border-radius: 8px;
+}
+.hero-text h2 {
+  font-size: 2rem;
+  margin: 0;
+  color: #EBA83B;
+}
+.hero-text h3 {
+  margin: 0.5rem 0;
+}
+
+/* Layout */
+.container {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+}
+.content {
+  flex: 2;
+}
+.sidebar {
+  flex: 1;
+}
+
+/* Author Card */
+.author-card {
+  text-align: center;
+  background: #f0f8ff; /* Sky Blue */
+  padding: 1rem;
+  border-radius: 8px;
+}
+.author-card img {
+  border-radius: 50%;
+}
+.author-card h3 {
+  margin: 0.5rem 0;
+}
+
+/* Tags */
+.tags {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.tags span {
+  background: #EBA83B;
+  color: #fff;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
